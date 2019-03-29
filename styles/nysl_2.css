@@ -1,0 +1,146 @@
+header {
+    height: 400px;
+    background-image: url(design1_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: absolute;
+    top: 15%
+}
+
+#margintop1 {
+    margin-top: 250px;
+}
+
+#margintop2 {
+    margin-top: 250px;
+}
+
+.events {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+
+    z-index: 1;
+
+}
+
+h2 {
+    border: 5px double white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    background-color: black;
+    outline-color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    font-size: 60px;
+
+}
+
+body {
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: gainsboro;
+}
+
+
+.flex-container {
+    display: flex;
+
+
+}
+
+.links {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 28%;
+    right: 3%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links div:first-of-type {
+    background-color: green;
+}
+
+a {
+    color: white;
+}
+
+.sublink a {
+    text-decoration: underline;
+
+
+}
+
+.links div {
+
+    background-color: blue;
+    border: 3px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100px;
+}
+
+
+a:link {
+    text-decoration: none;
+
+}
+
+.fechas div {
+    margin-right: 200px;
+    margin-bottom: 25px;
+    padding-left: 300px;
+
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.abouts div {
+    padding-left: 15%;
+}
+
+.abouts div p {
+    padding-left: 15px;
+    margin-top: 0;
+
+}
+
+.fechas span {
+    font-style: italic;
+}
+
+footer {
+    margin-top: 150px;
+}
+.contacto{
+    margin-right: 200px;
+    margin-bottom: 25px;
+    padding-left: 300px;
+}
+#espacio {
+    width: 100px;
+    height: 100px;
+}

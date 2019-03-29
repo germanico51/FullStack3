@@ -1,0 +1,108 @@
+header {
+    height: 400px;
+    background-image: url(design1_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#margintop1 {
+    margin-top: 250px;
+}
+
+#margintop2 {
+    margin-top: 100px;
+}
+
+.events {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    right: 250px;
+    bottom: 0;
+    z-index: 1;
+    transform: translate(0px, 30px);
+}
+
+h2 {
+    border: 5px double white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    background-color: black;
+    outline-color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    font-size: 60px;
+
+}
+
+body {
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: gainsboro;
+}
+
+
+.flex-container {
+    display: flex;
+  
+}
+
+.links div {
+    padding-bottom: 60px;
+    padding-right: 200px;
+    padding-left: 30px;
+    width: 100px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.sublink {
+    text-decoration: underline;
+
+}
+
+
+.fechas div {
+    margin-right: 200px;
+    margin-bottom: 25px;
+    
+    
+
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.abouts  div p {
+    padding-left: 15px;
+    margin-top: 0;
+
+}
+
+.fechas span {
+    font-style: italic;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+#espacio {
+    width: 100px;
+    height: 100px;
+}
